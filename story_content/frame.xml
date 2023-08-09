@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns00001000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001000001" font="Arial" controllayout="npnxnanbsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00001000001" font="Arial" controllayout="pxabnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="npxnabnsnfns00001000001" font="Arial" controllayout="npxnabnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="npnxnanbnsnfns00001000001" font="Arial" controllayout="npnxnanbnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00001000000" font="Arial" controllayout="pxabnsnfns00001000000" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="pnxnanbsnfns00001000001" font="Arial" controllayout="pnxnanbsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="npxnanbnsnfns00001000001" font="Arial" controllayout="npxnanbnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="pxnanbnsnfns00001000001" font="Arial" controllayout="pxnanbnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+    <layout name="pnxnanbnsnfns00001000001" font="Arial" controllayout="pnxnanbnsnfns00001000001" colorscheme="npxnanbnsnfns00001000001" string_table="npxnanbnsnfns00001000001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Overview of Comfort" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="transcript" value="false" group="linkleft" />
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="glossary" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Exit" />
+                  <property name="data" value="6bUXs6EeE2J" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxnanbsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns00001000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnanbnsnfns00001000001">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x262626" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="70" stop="0" />
+                <color rgb="0x333333" alpha="70" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x333333" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x948A85" alpha="100" stop="0" />
+                <color rgb="0x948A85" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E2F30" alpha="100" stop="0" />
+                <color rgb="0x2E2F30" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275A96" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x717073" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF1F1F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8D2" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF1F1F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnanbnsnfns00001000001">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">CC Text</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Arial">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5i3wYcV5ayX" displaytext="Introduction" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5i3wYcV5ayX.6TZI7TFS33V" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5i3wYcV5ayX.5gZ1KSj3vvH" displaytext="Course Introduction" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5i7on8aczOB" displaytext="Defining Comfort" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5i7on8aczOB.6FPulXY1DeX" displaytext="Section Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.65HN3aKgisc" displaytext="Introduction cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5Zi28mhe0hU" displaytext="Introduction cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.6gVwzgc5BQY" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5i3xvIL9zbq" displaytext="HVAC Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.6eqEA1tsGV0" displaytext="Comfort Problems" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.69xzCyYyvYQ" displaytext="Origins of Comfort Problems" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5WFGllVOX8v" displaytext="HVAC Design" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5bTxrrre6uP" displaytext="Consider the Following" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5zuzG8oK7gG" displaytext="Energy Efficiency" expand="false" type="slide" />
+            <slidelink slideid="_player.5i7on8aczOB.5vBCeau0Zq9" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5kSmFQ7IZ0T" displaytext="Comfort and  5QI &amp; 9QI - HVAC Quality Installation &amp; Verification" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5kSmFQ7IZ0T.6PwssfX7EYh" displaytext="Section Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.5iHU6JIWCwZ" displaytext="Benefits of Choosing Professional HVAC Contractors " expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.5no7YvbXgmO" displaytext="HVAC Industry Stakeholders " expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.6pMUFWoaMtc" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.5WFEmgxcR6O" displaytext="9QI - HVAC Quality Installation Verification Protocols" expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.5bkEOcmo9YP" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.5kSmFQ7IZ0T.6d1SH1jdVNd" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6TcuAF1rFrF" displaytext="Comfort and Manual D - Duct Design Basics" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6TcuAF1rFrF.6o3mXvID32p" displaytext="Section Introduction " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6Y6FmMWnKfF" displaytext="Duct Design Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6bgvbGXbYWk" displaytext="ACCA’s Manual D - Residential Duct Systems" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5zzQLWWWHup" displaytext="Equipment Blower Performance" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.60JZiYASAvd" displaytext="Duct System Performance" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6Z9vVSHCgkS" displaytext="Duct Design Objective" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5rGYrFbLpgb" displaytext="Duct Systems Sizing" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5xb9sMxqLLQ" displaytext="Load Calculation" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6TIeXkwPp8C" displaytext="Heating and Cooling Factors" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.687bfdLPNPX" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5mfj4Dqmsiu" displaytext="Room Heating Factor " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5oxkgNtJPng" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5whPCK0aR1B" displaytext="Room Cooling Factor " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5oqitzFq2o5" displaytext="Room Cfm Calculations " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6HYS9BetM6a" displaytext="Duct Airway Sizing" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.63cjGH9yRDZ" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.66m6sGauG0u" displaytext="Duct Runs " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6E5Ht0icHGU" displaytext="Duct Fittings" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6oHFHV8vK1A" displaytext="Total Effective Length" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6haplvds2sR" displaytext="Duct Run Effective Length" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6RucZDrMYxs" displaytext="Friction Rate" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6eUHFnTOgcA" displaytext="Total Effective Length (TEL) " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5yctfn3j61V" displaytext="TEL Value Calculation" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6LLre2fNz95" displaytext="Total Effective Length (TEL) " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6NYup5MtnLa" displaytext="Friction Rate " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6gWstxL8i7l" displaytext="Determining Duct Design Friction Rate " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6L8g5QMobbM" displaytext="Air Duct Calculator" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6BCHX7HeDni" displaytext="Friction Rate Formula" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6c2JWvT2o2b" displaytext="Adjusted Friction Rate Value " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6Q4FSFn4uor" displaytext="Determining the Adjusted Friction Rate Value " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6QxBwMWgksi" displaytext="Airway Sizing" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5lCZ2geC2Zh" displaytext="Duct Slide Rule Calculator " expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.6dj9ibfR0gg" displaytext="Example Duct System" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5sSZoHqbp15" displaytext="Duct Slide Rule Calculator cont" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.5cDQaYJkU6E" displaytext="Example Duct System cont" expand="false" type="slide" />
+            <slidelink slideid="_player.6TcuAF1rFrF.67786aArL89" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hOjXqv14ZE" displaytext="Load Calculation Basics - Comfort and Manual J  " expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6hOjXqv14ZE.5kOItuUKd1L" displaytext="Section Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5dLyvd1zMnq" displaytext="Heat Gains and Losses" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6cIEcHNRzFa" displaytext="Load Calculation Process " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5pg8fANXwzu" displaytext="Load Calculation Software" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6UfhxTug1g5" displaytext="Manual J Application" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5iY1OjzEjZq" displaytext="Sensible, Latent and Total Loads" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5i00ezWeNPf" displaytext="Latent Load Sources  " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5yepleShe8f" displaytext="Total Cooling Load " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5bLRatF4YyQ" displaytext="Enclosure Loads" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6jWQzUCXjM9" displaytext="R-value" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6ESaHJcG8uh" displaytext="Heat Loss and Heat Gain Formula: Q" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6oA8dBrN34P" displaytext="Heat Loss and Heat Gain Formula: U" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5YJdXm2BXrh" displaytext="Combining Individual R-values " expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6kPSRUgPc03" displaytext="Heat Loss and Heat Gain Formula: ∆T" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5afiGI5uFZH" displaytext="Equipment Installation Locations" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6LML4pwuZUP" displaytext="Building Components" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6HuCXPptbW7" displaytext="Other Load Components" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6CHI5P6oiCU" displaytext="Solar Heat Gain" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6YvVoKms3ma" displaytext="Cooling Load and Sensible Heat Ratio" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6SwcOpd41mN" displaytext="Heating and Cooling Load Reference Tables" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.6X0xBfzyXWW" displaytext="Block Heating and Cooling Loads" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5hnanAhoxRS" displaytext="Room-by-Room Heating and Cooling Loads" expand="false" type="slide" />
+            <slidelink slideid="_player.6hOjXqv14ZE.5cmI1PKTgZs" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5uo9DxbU171" displaytext="Equipment Selection and Sizing - Comfort and Manual S " expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5uo9DxbU171.5qlaW9Blmmi" displaytext="Capacity and Efficiency Factors" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5W1w61roMBa" displaytext="Effects of Geographic Location" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6VkTOaD6vae" displaytext="ACCA’s Manual S - Residential Equipment Selection " expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6XxLD9CqEcy" displaytext="Equipment Sizing and Part-Load Operation" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6axu0NT5iIZ" displaytext="Equipment Sizing" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5qPeEqJqJAN" displaytext="Common Sizing Error" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6MF1pEjIzVr" displaytext="Manual S Application" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6fl6Bcqynjw" displaytext="Cooling Equipment OEM Expanded Performance Data " expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6aie5V5GUVu" displaytext="Don’t Use Nominal Capacity for Equipment Sizing" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6ig3cqSyj8K" displaytext="Don’t Use Nominal Capacity for Equipment Sizing cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5xTTdccwRwl" displaytext="Don’t Use AHRI Capacity Ratings for Equipment Sizing " expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6eUrDwwire5" displaytext="Don’t Use AHRI Capacity Ratings for Equipment Sizing cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.64KAA2nAIqW" displaytext="The Equipment Selection Process" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6hU27XBgu0H" displaytext="Heating Equipment Selection - Process Review" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6JP1esDvzD5" displaytext="Heating Equipment Selection Process " expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5aBiF3QXkWr" displaytext="Cooling Equipment Selection - Process Review" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6b9blDZgJ5t" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5db7obVewwl" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5hm7AG6CYKg" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6YJUfC9jYsE" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6LPYIKr95wR" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6VScMrWlWd7" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6Bnsxp73U0Z" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5WtqpQJPCPs" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6EDUCJuJmWH" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5a6X9zKwNor" displaytext="Furnace Temperature Rise" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6RQvYh9beab" displaytext="Discharge Air Temperature" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6PV5xZBYx9j" displaytext="Temperature Rise Range" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6JZIbvhQgXI" displaytext="Manual S Fossil Fuel Furnace Equipment Selection and Sizing Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6qvWiRocX13" displaytext="Temperature Rise Range" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5zlb17kHuft" displaytext="Step 1: Complete a Manual J heating load for the target home." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5dunV9ANZHD" displaytext="Home Load Calculation and Design Conditions Summary:" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.63jArovVSvv" displaytext="Step 2: Review the product specifications for the proposed equipment to verify compatibility with the application." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.63pExURzIcM" displaytext="Step 3: Review the performance data for the heating equipment (make and model) for the tentative selection." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6cTPDSLx6dJ" displaytext="Step 5: Create a sizing limit “target range” for total cooling capacity and use that range to evaluate candidate equipment." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5WYstwDlyt4" displaytext="Step 4: Find the candidate equipment that meets the design criteria." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6mRMxfyrH1X" displaytext="Step 6: Validate candidate equipment size by comparing total cooling capacity with the target range." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6quiG7toHYB" displaytext="Step6: cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5V3YohGZsfs" displaytext="Step6: cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.66RE6JfDrnO" displaytext="Step6: cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.5maF8LM486D" displaytext="Step 7: Compare the latent cooling capacity of the candidate equipment with the latent cooling load." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6A7OZKw6MAI" displaytext="Step 8: Compare the sensible cooling capacity of the proposed equipment with the sensible cooling load." expand="false" type="slide" />
+            <slidelink slideid="_player.5uo9DxbU171.6XwgFb0GgFJ" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5uyvIpPWIND" displaytext="Air Distribution Basics - Comfort and Manual T" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5uyvIpPWIND.60Tg2emCvWp" displaytext="Section Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.68YtRI7mjgt" displaytext="Application" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6VmXn282yrD" displaytext="Terminology" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.65XQ6uMiBV1" displaytext="Occupied Comfort Zone" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.62qRLh3R1nn" displaytext="Air mixing" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.62sZFDS3UMR" displaytext="Air mixing cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6h098el7cUH" displaytext="Air mixing cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5vNCoirErqh" displaytext="Air terminal performance data" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6SHDEHKhFIE" displaytext="Air terminal performance Data" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6qoyXXwbOyR" displaytext="Air Terminal Noise Criteria" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6pnRmuTRNva" displaytext="Air Terminal Noise Criteria cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5y3iw9lAQRH" displaytext="Supply Air Outlets" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6rT1MKuZczl" displaytext="Supply Air Outlets cont" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5bEYDC4j7ng" displaytext="Gross Area" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6XHxpiCYRxG" displaytext="Air Flow Formula" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6j9bj1xW3aC" displaytext="Surface Effect " expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6k91xjm9MWv" displaytext="Supply Air Outlets" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.68U3j5GNrjo" displaytext="Return Air Inlets" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5jWcEm6WF2x" displaytext="Stagnant Air Zones" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5cUOWgIpxVA" displaytext="Building Technology" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.64bu8lEZByS" displaytext="Air Distribution Effectiveness" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.6kpuZWTrwDp" displaytext="Air Terminal Performance" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.5uzK3n68HmK" displaytext="Air Terminal Performance" expand="false" type="slide" />
+            <slidelink slideid="_player.5uyvIpPWIND.61sAZdDFyd7" displaytext="Section Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.65QRNoTHqQg" displaytext="Knowledge Check" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.65QRNoTHqQg.5priBtJqqgp" displaytext="Draw from Overview of Comfort Questions" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63D8vEK50Rr" displaytext="Conclusion" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.63D8vEK50Rr.5pa5YSjtfd7" displaytext="Congratulations" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
